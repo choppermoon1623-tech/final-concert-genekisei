@@ -4,29 +4,30 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>第1部 現役生ステージ｜ファイナルコンサート（登別中学校吹奏楽部）</title>
-<meta name="description" content="登別中学校吹奏楽部 ファイナルコンサート（第32回定期演奏会）第1部 現役生ステージ。令和8年10月18日（日）登別市民会館 大ホール。曲目と参考音源、開演までのカウントダウン。" />
+<meta name="description" content="登別中学校吹奏楽部 ファイナルコンサート（第32回定期演奏会）現役生向けページ。令和8年10月18日（日）登別市民会館 大ホール。第1部・第2部の曲目と参考音源、開演までのカウントダウン。" />
 <meta property="og:title" content="第1部 現役生ステージ｜ファイナルコンサート" />
-<meta property="og:description" content="令和8年10月18日（日）14:00開演／登別市民会館 大ホール。第1部の曲目と参考音源はこちら。" />
+<meta property="og:description" content="令和8年10月18日（日）14:00開演／登別市民会館 大ホール。第1部・第2部の曲目と参考音源はこちら。" />
 <meta property="og:image" content="https://choppermoon1623-tech.github.io/final-concert-genekisei/og.jpg" />
 <meta property="og:type" content="website" />
-<meta name="theme-color" content="#bfe2f8" />
+<meta name="theme-color" content="#c6e5b2" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
 <style>
   /* 色はここに集約（ポスターの青空・若葉・金文字・赤リボンから） */
   :root {
-    --sky: #d7ecfa;
-    --sky-pale: #f2f9fe;
-    --cream: #fffaf0;
+    /* 現役生ページは若葉グリーン系（OBOGページの空色×金と区別） */
+    --sky: #dcefd2;
+    --sky-pale: #f4faf0;
+    --cream: #fffdf2;
     --white: #ffffff;
-    --navy: #16306a;
-    --ink: #2b3a55;
-    --sub: #5d6b82;
-    --mute: #8a95a8;
-    --line: #e1e8f0;
-    --blue: #1f6fd6;
-    --blue-dk: #0c4ea8;
+    --navy: #1f4d2e;
+    --ink: #2f4034;
+    --sub: #63786a;
+    --mute: #93a899;
+    --line: #e3ece1;
+    --blue: #2f8f4e;
+    --blue-dk: #1c6b38;
     --gold: #b8860b;
     --gold-lt: #e8b93a;
     --gold-pale: #fff4d6;
@@ -35,13 +36,13 @@
   }
   *, *::before, *::after { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body { margin: 0; background: linear-gradient(180deg, #bfe2f8 0%, var(--sky) 40%, #eaf5fc 100%) fixed; color: var(--ink); font-family: 'Zen Kaku Gothic New', sans-serif; -webkit-font-smoothing: antialiased; }
+  body { margin: 0; background: linear-gradient(180deg, #c6e5b2 0%, var(--sky) 40%, #eff8e9 100%) fixed; color: var(--ink); font-family: 'Zen Kaku Gothic New', sans-serif; -webkit-font-smoothing: antialiased; }
   h1, h2 { margin: 0; font-family: 'Shippori Mincho B1', serif; color: var(--navy); }
   a { color: var(--blue); }
   a:hover { color: var(--blue-dk); }
   b.em { color: var(--blue-dk); }
   .wrap { min-height: 100vh; display: flex; justify-content: center; }
-  .page { width: 100%; max-width: 560px; background: var(--white); box-shadow: 0 0 60px rgba(40,100,160,.18); }
+  .page { width: 100%; max-width: 560px; background: var(--white); box-shadow: 0 0 60px rgba(52,110,60,.18); }
   .sec { padding: 40px 24px; display: flex; flex-direction: column; gap: 20px; }
   .sec.sky { background: var(--sky-pale); }
   .sec.cream { background: var(--cream); }
@@ -59,20 +60,21 @@
   .box-t { font-size: 15px; font-weight: 700; color: var(--navy); line-height: 1.6; }
   .box-b { font-size: 14px; line-height: 1.85; color: var(--ink); }
   .body { font-size: 15px; line-height: 1.95; color: var(--ink); text-wrap: pretty; }
-  .ribbon { align-self: flex-start; position: relative; font-size: 12px; letter-spacing: .16em; color: #fff; background: linear-gradient(180deg, #e8505a, var(--red)); padding: 6px 20px; font-weight: 700; clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 50%, 100% 100%, 0 100%, 8px 50%); }
+  .ribbon { align-self: flex-start; position: relative; font-size: 12px; letter-spacing: .16em; color: #fff; background: linear-gradient(180deg, #46a865, var(--blue-dk)); padding: 6px 20px; font-weight: 700; clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 50%, 100% 100%, 0 100%, 8px 50%); }
+  .ribbon.gold { background: linear-gradient(180deg, var(--gold-lt), var(--gold)); }
   @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
   /* ヒーロー（ポスターのタイトルをそのまま使う） */
-  .hero { margin: 0; line-height: 0; background: #cfe9fb; }
+  .hero { margin: 0; line-height: 0; background: #d8eecc; }
   .hero img { display: block; width: 100%; height: auto; }
-  .lead { padding: 22px 24px 30px; background: linear-gradient(180deg, #e3f2fc 0%, var(--white) 100%); text-align: center; display: flex; flex-direction: column; gap: 12px; animation: rise .6s ease both; }
+  .lead { padding: 22px 24px 30px; background: linear-gradient(180deg, #e7f5df 0%, var(--white) 100%); text-align: center; display: flex; flex-direction: column; gap: 12px; animation: rise .6s ease both; }
   .lead-k { font-family: 'Shippori Mincho B1', serif; font-size: 15px; letter-spacing: .1em; color: var(--sub); }
   .lead-m { font-size: 16px; line-height: 1.9; color: var(--navy); font-weight: 500; }
 
   /* 開演まで */
   .cdsec { padding: 30px 24px; background: var(--sky-pale); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
   .cd { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; }
-  .cd div { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 4px; background: var(--white); border: 1px solid #cfe2f3; border-radius: 8px; box-shadow: 0 2px 8px rgba(31,111,214,.07); }
+  .cd div { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 4px; background: var(--white); border: 1px solid #cfe4c5; border-radius: 8px; box-shadow: 0 2px 8px rgba(47,143,78,.09); }
   .cd b { font-family: 'Shippori Mincho B1', serif; font-size: 32px; line-height: 1; color: var(--blue-dk); font-variant-numeric: tabular-nums; font-weight: 800; }
   .cd small { font-size: 11px; letter-spacing: .14em; color: var(--sub); }
 
@@ -83,10 +85,12 @@
   .song-no { font-family: 'Shippori Mincho B1', serif; font-size: 24px; font-weight: 800; line-height: 1; color: var(--gold); text-align: center; font-variant-numeric: tabular-nums; }
   .song-t { font-size: 16px; line-height: 1.6; color: var(--navy); }
   .song-n { font-size: 13px; line-height: 1.7; color: var(--sub); margin-top: 2px; }
-  .yt { display: inline-flex; align-items: center; gap: 7px; padding: 8px 12px; font-size: 13px; font-weight: 700; color: var(--ink); white-space: nowrap; text-decoration: none; background: var(--white); border: 1px solid #d5dde8; border-radius: 999px; }
+  .yt { display: inline-flex; align-items: center; gap: 7px; padding: 8px 12px; font-size: 13px; font-weight: 700; color: var(--ink); white-space: nowrap; text-decoration: none; background: var(--white); border: 1px solid #dce6d9; border-radius: 999px; }
   .yt:hover { color: #c8102e; background: #fff0f2; border-color: rgba(255,0,51,.5); }
   .yt i { width: 20px; height: 14px; border-radius: 4px; background: #ff0033; position: relative; flex: none; }
   .yt i::after { content: ""; position: absolute; left: 8px; top: 4px; border-style: solid; border-width: 3px 0 3px 5px; border-color: transparent transparent transparent #fff; }
+  .encore { display: flex; flex-direction: column; gap: 4px; padding: 16px; background: var(--sky-pale); border-radius: 8px; }
+  .encore-k { font-size: 12px; letter-spacing: .16em; color: var(--gold); font-weight: 700; }
   .only { display: inline-block; margin-left: 6px; padding: 1px 8px; font-size: 11px; font-weight: 700; letter-spacing: .06em; color: var(--gold); background: var(--gold-pale); border: 1px solid rgba(232,185,58,.7); border-radius: 2px; vertical-align: 2px; white-space: nowrap; }
   @media (max-width: 400px) {
     .song { grid-template-columns: 20px 1fr auto; gap: 10px; }
@@ -96,7 +100,7 @@
   }
 
   /* OBOGの参加人数 */
-  .obog { padding: 40px 24px 36px; background: radial-gradient(120% 90% at 50% 40%, #fff7da 0%, #fdfbf2 45%, #e6f3fc 100%); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+  .obog { padding: 40px 24px 36px; background: radial-gradient(120% 90% at 50% 40%, #fff7da 0%, #fdfbf2 45%, #e9f6e1 100%); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
   .obog-k { font-family: 'Shippori Mincho B1', serif; font-size: 16px; letter-spacing: .18em; color: var(--navy); font-weight: 800; }
   .obog-num { display: flex; align-items: baseline; justify-content: center; gap: 4px; line-height: 1; }
   .obog-num b { font-family: 'Shippori Mincho B1', serif; font-size: 96px; font-weight: 800; letter-spacing: .02em; font-variant-numeric: tabular-nums; background: linear-gradient(100deg, #9a6d05 0%, #d9a52a 30%, #ffe9a3 45%, #d9a52a 60%, #9a6d05 100%); background-size: 250% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 3px 0 rgba(255,255,255,.9)) drop-shadow(0 6px 14px rgba(184,134,11,.3)); animation: shine 3.2s ease-in-out infinite; }
@@ -107,11 +111,11 @@
 
   /* ポスターのダウンロード */
   .poster { display: grid; grid-template-columns: 150px 1fr; gap: 18px; align-items: start; }
-  .poster-img { display: block; border-radius: 4px; overflow: hidden; box-shadow: 0 8px 22px rgba(22,48,106,.2); border: 1px solid var(--line); }
+  .poster-img { display: block; border-radius: 4px; overflow: hidden; box-shadow: 0 8px 22px rgba(31,77,46,.2); border: 1px solid var(--line); }
   .poster-img img { display: block; width: 100%; height: auto; }
   .poster-dl { display: flex; flex-direction: column; gap: 10px; }
-  .dl { display: flex; align-items: center; gap: 12px; padding: 13px 14px; text-decoration: none; background: var(--white); border: 1.5px solid rgba(31,111,214,.4); border-radius: 8px; color: var(--navy); }
-  .dl:hover { background: #eef5fe; color: var(--navy); }
+  .dl { display: flex; align-items: center; gap: 12px; padding: 13px 14px; text-decoration: none; background: var(--white); border: 1.5px solid rgba(47,143,78,.45); border-radius: 8px; color: var(--navy); }
+  .dl:hover { background: #eef7e9; color: var(--navy); }
   .dl-ic { flex: none; width: 38px; height: 38px; display: grid; place-items: center; border-radius: 6px; font-size: 11px; font-weight: 700; letter-spacing: .04em; color: #fff; background: var(--blue); }
   .dl.pdf .dl-ic { background: var(--red); }
   .dl-t { font-size: 15px; font-weight: 700; line-height: 1.4; }
@@ -121,8 +125,8 @@
     .poster-img { width: 62%; margin: 0 auto; }
   }
 
-  .closing { padding: 52px 24px; background: linear-gradient(180deg, var(--white) 0%, #e6f3fc 100%); display: flex; flex-direction: column; gap: 20px; text-align: center; align-items: center; }
-  footer { padding: 26px 24px 40px; background: #e6f3fc; border-top: 1px solid #cfe2f3; text-align: center; font-size: 12px; line-height: 2; color: var(--sub); }
+  .closing { padding: 52px 24px; background: linear-gradient(180deg, var(--white) 0%, #e9f6e1 100%); display: flex; flex-direction: column; gap: 20px; text-align: center; align-items: center; }
+  footer { padding: 26px 24px 40px; background: #e9f6e1; border-top: 1px solid #cfe4c5; text-align: center; font-size: 12px; line-height: 2; color: var(--sub); }
 </style>
 </head>
 <body>
@@ -162,7 +166,7 @@
     <div class="rule"><h2>第1部の曲目</h2></div>
     <div class="box">
       <div class="box-t">参考音源（YouTube）で予習できます</div>
-      <div class="box-b">各曲の「<b class="em">▶ 参考音源</b>」を押すと、YouTubeの参考演奏が開きます。譜面と合わせて、練習前の予習にお役立てください。</div>
+      <div class="box-b">各曲の「<b class="em">▶ 参考音源</b>」を押すと、YouTubeの参考演奏が開きます。譜面と合わせて、練習前の予習にお役立てください。<b class="em">第2部で演奏する曲の参考音源も、このページの下にあります。</b></div>
     </div>
     <ol class="songs">
       <li class="song">
@@ -199,6 +203,60 @@
     <div class="obog-num"><b id="obog-n">51</b><span>名</span></div>
     <div class="obog-k" style="font-size:15px;letter-spacing:.1em;color:var(--gold)">の先輩が出演します</div>
     <div class="obog-msg">この演奏会には、卒業した先輩たちが<b class="em">51名</b>集まります。<br />第2部は、現役生と先輩たちの共演ステージです。<br />みなさんの音に、たくさんの先輩の音が重なります。</div>
+    <a href="#program2" style="font-size:14px;font-weight:700">↓ 第2部の曲目と参考音源を見る</a>
+  </section>
+
+  <section class="sec" id="program2">
+    <div class="ribbon gold">第2部　OBOGステージ</div>
+    <div class="rule"><h2>第2部の曲目</h2></div>
+    <div class="note">先輩たちと一緒に演奏するステージです。下の並びが本番の演奏順です。</div>
+    <ol class="songs">
+      <li class="song">
+        <span class="song-no">1</span>
+        <div><div class="song-t">愛するデューク</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=qIz-USUsDx8" target="_blank" rel="noopener" aria-label="愛するデューク の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+      <li class="song">
+        <span class="song-no">2</span>
+        <div><div class="song-t">paradise has no border</div><div class="song-n">渡會先生　指揮</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=DzVH-eMd17s" target="_blank" rel="noopener" aria-label="paradise has no border の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+      <li class="song">
+        <span class="song-no">3</span>
+        <div><div class="song-t">ディスコ・パーティー</div><div class="song-n">佐土先生　指揮</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=AHEaRoQGUCg" target="_blank" rel="noopener" aria-label="ディスコ・パーティー の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+      <li class="song">
+        <span class="song-no">4</span>
+        <div><div class="song-t">未来予想図Ⅱ</div><div class="song-n">小林先生　指揮</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=N5giqdnmARQ" target="_blank" rel="noopener" aria-label="未来予想図Ⅱ の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+      <li class="song">
+        <span class="song-no">5</span>
+        <div><div class="song-t">詩的なアリア</div><div class="song-n">伊勢さん　ホルン協奏曲</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=xwhJJ8Ryo8I" target="_blank" rel="noopener" aria-label="詩的なアリア の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+      <li class="song">
+        <span class="song-no">6</span>
+        <div><div class="song-t">オーメンズ・オブ・ラブ</div></div>
+        <a class="yt" href="https://www.youtube.com/watch?v=DHDvDA1UiKM" target="_blank" rel="noopener" aria-label="オーメンズ・オブ・ラブ の参考音源（YouTube）"><i></i>参考音源</a>
+      </li>
+    </ol>
+    <div class="encore">
+      <div class="encore-k">アンコール</div>
+      <ol class="songs">
+        <li class="song">
+          <span class="song-no">♪</span>
+          <div><div class="song-t">星条旗よ永遠なれ</div></div>
+          <a class="yt" href="https://www.youtube.com/watch?v=pXRUFj_4NEA" target="_blank" rel="noopener" aria-label="星条旗よ永遠なれ の参考音源（YouTube）"><i></i>参考音源</a>
+        </li>
+        <li class="song">
+          <span class="song-no">♪</span>
+          <div><div class="song-t">宝島</div></div>
+          <a class="yt" href="https://www.youtube.com/watch?v=PvX4T4S3Ouw" target="_blank" rel="noopener" aria-label="宝島 の参考音源（YouTube）"><i></i>参考音源</a>
+        </li>
+      </ol>
+    </div>
   </section>
 
   <section class="sec cream" id="poster">
